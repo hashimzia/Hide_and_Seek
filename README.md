@@ -1,6 +1,5 @@
-# Connections Lab Final Project
-## [project Link](https://connections-lab---final-project.glitch.me/)
-### ⚫️ The final project is a continuation of the second project. This version of the project takes into account much of the feedback received from friends and classmates and has been incorporated to produce a more enjoyable game
+# Hide And Seek
+## [Glitch Live Link](https://connections-lab---final-project.glitch.me/)
 ## production decisions (i.e. technical, design, conceptual, creative etc)
 #### planning
 we first noted down the details of our idea. We wanted to make sure we understand the target audience and the challenges that we must face. This would help us know what we would focus on and get a better idea of the design aspects.<br>
@@ -70,18 +69,7 @@ some of the potential next steps include:
 ## relevant references/resources that were utilized
 * for the sprites and imgs we used a few game sites that provided game assets.
 
-## individual paragraphs
-#### Hashim's paragraph
-Creating this project was some of the most fun time spent time I have spent developing. The most interesting part for me was to recreate a an activity that is so common in real life in the digital world. This change from reality to the internet meant a lot of decisions to be made. This included how to properly show the information and what can make the game intuitive. Some decisions like showing the seeker view to the hider after he has hidden is something different real life but in my personal view this makes it more interesting. I was mostly supposed to handle the backend of the game. Through this project I could truly understand why sockets can be so efficent for real-time information transfer.
-<p>  ⚫️ Continuing the project for our final project was a very unique tasks. Much of the work that was now to be done was implementing feedback we had received from our classmates which was very different from implementing our ideas (like we had for project 2). This part of the development was also much more focused on fine-tuning the game further so everything flows naturally. This is much harder as a developer and so playtesting was a vital step towards thisreaching this final goal. </p>
-
-#### Nouf's pragraph
-I really enjoyed working on this project. It was really cool to finally see the project running online with players on different devices! In this project I wanted to focus on the pre project preperation in terms of ideation and creating the frameworks. So in our first few meetings we made sure to have a clear idea about the project in terms of basic idea, challanges, desgin elements and so on. We also made sure to keep track of the steps we have already gone through and the ones we still need finish. We also kept track of bugs and potential new ideas for things in the project. This was really helpful becuase we we're a team working on this project. I worked on the initial front end and wanted to try to keep the code clean, modular, and intuitive, I think that I did well on the later two goals, but feel like I could do better on the first. There are a few variables that we're used in a version of the code that we scratched that remain in the final version. I think for next time I'll make sure to delete all associated variables when deleting a code block which reduces the need to look for them later on when cleaning the code.
-
-  <p> ⚫️ for the final we wanted to improve our midterm project. improving the interface was alittle harder than I initially assumed. So much work had to go into predicting how the user would interact with our game's interfaces. It was also intresting to try and think of questions to ask our testers to gather as much feedback from the users about what isn't intuitive or could be improved and how they think it could be improved. We also spent alot of time thinking of the placement of all the elements of the page. This was really enjoyable and an intresting challenge!</p>
-
-
-## ⚫️ Features added since the last version:
+## ⚫️ Latest Features
 * Adding hints (hot and cold)
 * Adding a restart mechanism
 * Adding more players
@@ -109,14 +97,10 @@ for the current version of the Hide and Seek we wanted to improve the user exper
 * If user leaves, game shouldn’t end
 * The red doesn’t change quickly
 
-#### Minor
-* The hints in the instruction page look clickable 
-
 
 #### Extra features
 * The hints appear only if you ask for them(based on level)
 * let the seeker know where the hider hid if the seeker fails to find the hider.
-
 
 we decided the ones that we would tackle which included:
 * Adjust timer (so it counts down instead of counts up -> 10,9,8...ect instead of 1,2,3...ext)
@@ -125,47 +109,6 @@ we decided the ones that we would tackle which included:
 * add the "you have 15 sec to hide" or "you can search under a max of 3 furniture" text in the role page.
 * fix hint system bug/ end game if user didn’t hide
 * add screen to tell hider and seeker that the hider has hid
-
-### here are some of the chnages:
-### instructions page:
-<p align="left">
-  <img src="readme_imgs/instructions_old.png" width="350" title="hover text">
-</p>
-changes:<br>
-
-* we realized that people are likely to be already familiar with using the keybaord arrows to move around, so we reduced the instructions that explain that to make space for instructions about things the users are less familiar with or are unique to this game
-* we noticed that the hint instructions in the current version don't really indicate where they could be on the screen so we used screenshots of the hint/timer and search limit text on the screen and placed them in a position that could indicate their placement on the game screen
-* We also clarified the hint, timer and limited searches in the instructions page briefly.
-* We made sure that all the instructions are brief and can be understood as best as possible by a user who only scan this page
-
-<p align="left">
-  <img src="readme_imgs/instructions_new.png" width="350" title="hover text">
-</p>
-
-### role page:
-<p align="left">
-  <img src="readme_imgs/hider_role_old.png" width="350" title="hover text">
-</p>
-<p align="left">
-  <img src="readme_imgs/seeker_role_new.png" width="350" title="hover text">
-</p>
-changes:<br>
-
-* we added a short note on the time limit and maximum for users who skip over the insturctions page as those things are essential to the game 
-<p align="left">
-  <img src="readme_imgs/hider_role_new.png" width="350" title="hover text">
-</p>
-<p align="left">
-  <img src="readme_imgs/seeker_role_old.png" width="350" title="hover text">
-</p>
-
-### hider hidden page:
-<p align="left">
-  <img src="readme_imgs/hider_hidden_seeker.png" width="350" title="hover text">
-</p>
-<p align="left">
-  <img src="readme_imgs/hider_hidden_hider.png" width="350" title="hover text">
-</p>
 
 ## ⚫️ future ideas:
 * Implement the game in a VR environment
